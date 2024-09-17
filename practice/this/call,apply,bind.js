@@ -36,7 +36,8 @@ const std4 = {
 std3.x.apply(std4,[23,"ruler of DC"]);
 
 //in bind the function is binded to a variable so we can use it whenever we want by simply invoking it
-let myAge = .bind(std4,24,"infintie");
+let myAge = std3.x.bind(std3,24,"infintie");
 console.log(myAge);
 myAge();
+
 
